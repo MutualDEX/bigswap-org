@@ -26,7 +26,7 @@ export const theme = darkMode => ({
   greyText: darkMode ? white : '#6C7284',
 
   heroBG: darkMode
-    ? 'radial-gradient(76.02% 75.41% at 1.84% 0%, #ff007a 0%, #021d43 100%)'
+    ? 'radial-gradient(76.02% 75.41% at 1.84% 0%, #000000 0%, #021d43 100%)'
     : 'radial-gradient(76.02% 75.41% at 1.84% 0%, #FF3696 0%, #FFD8EB 100%);',
   invertImage: darkMode ? 'filter: invert(0);' : 'filter: invert(1);',
 
