@@ -4,26 +4,21 @@ const menu = [
     sublinks: [
       {
         name: 'App',
-        link: 'https://app.uniswap.org/#/',
+        link: 'https://bigswap.app/#/',
         description: 'Swap tokens and supply liquidity'
       },
       {
         name: 'Analytics',
-        link: 'https://uniswap.info/',
+        link: 'https://bigswap.info/',
         description: 'Uniswap analytics and historical data'
       },
       {
-        name: 'Token Lists',
-        link: 'https://tokenlists.org/',
+        name: 'MutualDEX Wallet',
+        link: 'https://mutualdex.com/',
         description: 'A new Ethereum token list standard.'
       },
       {
-        name: 'Unisocks',
-        link: 'https://unisocks.exchange/',
-        description: 'Dynamically priced socks'
-      },
-      {
-        name: 'Unipig',
+        name: 'open',
         link: 'https://unipig.exchange/',
         description: 'Optimistic rollup demo'
       }
@@ -36,7 +31,7 @@ const menu = [
         name: 'Documentation',
         link: '/docs/v2'
       },
-      { name: 'GitHub', link: 'https://github.com/Uniswap' },
+      { name: 'GitHub', link: 'https://github.com/MutualDEX' },
       { name: 'Whitepaper', link: '/whitepaper.pdf' },
       { name: 'Audit', link: '/audit.html' },
       { name: 'Bug Bounty', link: '/bug-bounty' }
@@ -46,11 +41,11 @@ const menu = [
     name: 'Governance',
     sublinks: [
       {
-        name: 'UNI Token',
-        link: '/blog/uni'
+        name: 'BGSP Token',
+        link: '/blog/BGSP'
       },
       { name: 'Forum', link: 'https://gov.uniswap.org/' },
-      { name: 'Voting Portal', link: 'https://app.uniswap.org/#/vote' },
+      { name: 'Voting Portal', link: 'https://bigswap.app/#/vote' },
       { name: 'Documentation', link: '/docs/v2/governance/overview' }
     ]
   },
@@ -58,8 +53,8 @@ const menu = [
     name: 'Community',
     sublinks: [
       { name: 'Discord', link: 'https://discord.gg/XErMcTq' },
-      { name: 'Twitter', link: 'https://twitter.com/UniswapProtocol' },
-      { name: 'Reddit', link: 'https://www.reddit.com/r/Uniswap' }
+      { name: 'Twitter', link: 'https://twitter.com/MutualDEX' },
+      { name: 'Reddit', link: 'https://www.reddit.com/r/MutualDEX' }
     ]
   },
   {
