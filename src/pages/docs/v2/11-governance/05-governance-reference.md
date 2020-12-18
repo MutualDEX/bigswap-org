@@ -3,9 +3,9 @@ title: Governance Reference
 tags: governance, documentation
 ---
 
-Uniswap protocol is goverened and upgraded by UNI token holders, using three distinct components; the UNI token, governance module, and Timelock. Together, these contracts allow the community to propose, vote, and implement changes to the uniswap protocol.
+BIGswap protocol is goverened and upgraded by BGSP token holders, using three distinct components; the UNI token, governance module, and Timelock. Together, these contracts allow the community to propose, vote, and implement changes to the uniswap protocol.
 
-Any addresses with more than 10M UNI delegated to it may propose governance actions, which contain finished, executable code. When a proposal is created, the community can cast their votes during a 3 day voting period. If a majority, and at least 4M votes are cast for the proposal, it is queued in the Timelock, and may be executed in a minimum of 2 days.
+Any addresses with more than 10M BGSP delegated to it may propose governance actions, which contain finished, executable code. When a proposal is created, the community can cast their votes during a 3 day voting period. If a majority, and at least 4M votes are cast for the proposal, it is queued in the Timelock, and may be executed in a minimum of 2 days.
 
 ## Timelock
 
@@ -72,7 +72,7 @@ ProposalExecuted(uint id)
 Emitted when a proposal has been executed in the Timelock.
 
 
-# Read-Only Functions: UNI
+# Read-Only Functions: BGSP
  
 ## Get Current Votes
 
@@ -100,7 +100,7 @@ Returns the prior number of votes for an account at a specific block number. The
 |                |           |                                                                                                                |
 | unnamed        | `uint96`  | The number of prior votes                                                                                      |
 
-# State-Changing Functions: UNI
+# State-Changing Functions: BGSP
 
 ## Delegate
 
