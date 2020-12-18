@@ -9,12 +9,12 @@ An automated market maker is a smart contract on Ethereum that hold on-chain liq
 
 ### Constant product formula
 
-The automated market making algorithm used by Uniswap.
+The automated market making algorithm used by Bigswap.
 See [x\*y=k](#x--y--k).
 
 ### ERC20
 
-ERC20 tokens are fungibile tokens on Ethereum. Uniswap supports all standard ERC20 implementations.
+ERC20 tokens are fungibile tokens on Ethereum. Bigswap supports all standard ERC20 implementations.
 
 ### Factory
 
