@@ -211,7 +211,7 @@ const IndexPage = props => {
           </StyledNav>
           <StyledImgSection>
             <MiniNewInfo to="/blog/uni/">
-              <NewPill>UNI</NewPill>
+              <NewPill>BGSP</NewPill>
               Read the announcement ↗
             </MiniNewInfo>
           </StyledImgSection>
