@@ -11,7 +11,7 @@ tags: smart-contracts, documentation
 
 For reference material on the Uniswap Governance system please see [Governance Reference](https://uniswap.org/docs/v2/governance/governance-reference).
 
-# UNI Address
+# BGSP Address
 
 `Uni` is deployed at `0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984` on the Ethereum [mainnet](https://etherscan.io/address/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984), and the [Ropsten](https://ropsten.etherscan.io/address/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984), [Rinkeby](https://rinkeby.etherscan.io/address/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984), [Görli](https://goerli.etherscan.io/address/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984), and [Kovan](https://kovan.etherscan.io/address/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984) testnets. It was built from commit [ab22c08](https://github.com/Uniswap/governance/commit/ab22c084bacb2636a1aebf9759890063eb6e4946).
 
@@ -51,7 +51,7 @@ import GovernorAlpha from '@uniswap/governance/build/GovernorAlpha.json'
 
 **The following addresses only exist on the Ethereum mainnet.**
 
-The UNI merkle distributor address is `0x090D4613473dEE047c3f2706764f49E0821D256e`.
+The BGSP merkle distributor address is `0x090D4613473dEE047c3f2706764f49E0821D256e`.
 
 The staking rewards factory address is `0x3032Ab3Fa8C01d786D29dAdE018d7f2017918e12`.
 
