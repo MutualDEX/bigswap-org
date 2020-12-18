@@ -200,10 +200,10 @@ const IndexPage = props => {
       <StyledBody>
         <StyledTitle>
           <StyledBodyTitle>
-            Uniswap is a decentralized protocol for automated liquidity provision on Ethereum.
+            BIGswap is a decentralized protocol for automated liquidity provision on Ethereum.
           </StyledBodyTitle>
           <StyledNav>
-            <StyledExternalLink href={'https://app.uniswap.org'}>
+            <StyledExternalLink href={'https://bigswap.app'}>
               Use the app <span style={{ fontSize: '11px' }}>↗</span>
             </StyledExternalLink>
             <StyledLink to={'/docs/v2/'}>Read the docs</StyledLink>
