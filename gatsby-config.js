@@ -6,12 +6,12 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `Uniswap`,
+    title: `BIGswap`,
     description: `Automated liquidity protocol on Ethereum`,
     author: `@UniswapProtocol`,
     menulinks: menu,
-    siteUrl: `https://uniswap.org`,
-    repository: `https://github.com/Uniswap/uniswap-org`,
+    siteUrl: `https://bigswap.app`,
+    repository: `https://github.com/MutualDEX/uniswap-org`,
     commit: process.env.NOW_GITHUB_COMMIT_SHA || `master`
   },
   plugins: [
