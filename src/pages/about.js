@@ -260,13 +260,13 @@ const About = props => {
           </Numbers>
           <StyledSectionFlex id="about" style={{ flexDirection: 'column' }}>
             <p>
-              Uniswap empowers developers, liquidity providers and traders to participate in a financial marketplace
+              BIGswap empowers developers, liquidity providers and traders to participate in a financial marketplace
               that is open and accessible to all.
             </p>
             <p>We are committed to open source software and building on the decentralized web.</p>
 
             <div style={{ display: 'flex', width: '100%', gap: '1rem', margin: 0 }}>
-              <InternalLink to="/blog/uni">UNI token</InternalLink>
+              <InternalLink to="/blog/uni">BGSP token</InternalLink>
               <InternalLink to="/whitepaper.pdf">
                 Whitepaper <span style={{ fontSize: '11px' }}>↗</span>
               </InternalLink>
@@ -280,11 +280,11 @@ const About = props => {
           <StyledSectionFlex id="contact" style={{ flexDirection: 'column' }}>
             <h2 style={{ width: '100%' }}>Contact</h2>
             <p>
-              To get in touch, please email <a href="mailto:contact@uniswap.org">contact@uniswap.org</a>
+              To get in touch, please email <a href="mailto:contact@uniswap.org">contacts@Bigswap.app</a>
             </p>
 
             <p>
-              We encourage anyone facing issues with their wallet, transaction or Uniswap related question to join our
+              We encourage anyone facing issues with their wallet, transaction or BGSPswap related question to join our
               active community discord.
             </p>
 
@@ -324,7 +324,7 @@ const About = props => {
               </a>
             </span>
             <p>
-              Uniswap welcomes all qualified persons to apply regardless of race, religion, gender, gender identity or
+              BGSPswap welcomes all qualified persons to apply regardless of race, religion, gender, gender identity or
               expression, sexual orientation, national origin, genetics, disability, age, or veteran status.
               Compensation will be competitive and commensurate with experience. This is a full time role which includes
               health insurance and other benefits.
