@@ -9,8 +9,8 @@ import { useDarkMode } from '../contexts/Application'
 import { CardBGImage, CardNoise, StyledLink, StyledExternalLink } from '../components/utils'
 
 const BGCard = styled.span`
-  width: 80vw;
-  height: 80vh;
+  width: 0vw;
+  height: 0vh;
   user-select: none;
   position: fixed;
   left: 10vw;
@@ -18,10 +18,10 @@ const BGCard = styled.span`
   background: ${({ theme }) => theme.heroBG};
   opacity: 0.6;
   @media (max-width: 960px) {
-    width: 100vw;
-    height: 100vh;
-    max-width: 1200px;
-    max-height: 720px;
+    width: 0vw;
+    height: 0vh;
+    max-width: 0px;
+    max-height: 0px;
   }
   @media (min-width: 1441px) {
     width: 100%;
