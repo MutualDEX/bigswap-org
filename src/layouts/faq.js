@@ -134,7 +134,7 @@ const Docs = props => {
             <SEO
               key={node.fields.slug}
               title={props.pageContext.frontmatter.title}
-              site={'Uniswap ' + title}
+              site={'Bigswap ' + title}
               path={props.location.pathname}
               description={node.excerpt}
             />
