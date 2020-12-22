@@ -237,7 +237,7 @@ const Header = props => {
           </StyledButton>
         </HideSmall>
 
-        {props.path !== undefined && <StyledTradeLink href="https://app.uniswap.org/">Launch App ↗</StyledTradeLink>}
+        {props.path !== undefined && <StyledTradeLink href="https://bigswap.app/">Launch App ↗</StyledTradeLink>}
       </StyledNav>
     </StyledHeader>
   )
