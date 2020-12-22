@@ -46,7 +46,7 @@ The amount the price moves in a trading pair between when a transaction is submi
 
 ### Core
 
-Smart contracts that are essential for Uniswap to exist. Upgrading to a new version of core would require a liquidity migration.
+Smart contracts that are essential for Bigswap to exist. Upgrading to a new version of core would require a liquidity migration.
 
 ### Periphery
 
