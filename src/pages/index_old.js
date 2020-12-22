@@ -157,7 +157,7 @@ const IndexPage = props => {
         <StyledTitle>
           <StyledBodyTitle>Automated Liquidity Protocol.</StyledBodyTitle>
           <span>
-            <Button href="https://app.uniswap.org/">Launch App</Button>
+            <Button href="https://bigswap.app/">Launch App</Button>
             <Button to="/docs" as={Link} outlined>
               Read the docs
             </Button>
@@ -273,7 +273,7 @@ const SummarySection = props => {
   return (
     <StyledSectionFlex>
       <StyledImgSection>
-        <MiniNewInfo to="/blog/launch-uniswap-v2/">
+        <MiniNewInfo to="/blog/launch-bigswap-v2/">
           <NewPill>
             <LinkTitle>Uniswap</LinkTitle> V2 Launch
           </NewPill>
@@ -291,7 +291,7 @@ const SummarySection = props => {
         </p>
 
         <p>
-          Uniswap empowers developers, liquidity providers and traders to participate in a financial marketplace that is
+          Bigswap empowers developers, liquidity providers and traders to participate in a financial marketplace that is
           open and accessible to all.
         </p>
 
@@ -319,27 +319,27 @@ const ProductsSection = props => {
     <>
       <StyledSectionFlex style={{ paddingBottom: '0px' }}>
         <StyledGoal style={{ width: '100%', maxWidth: '450px' }}>
-          <h1>Use Uniswap</h1>
-          <p>We build open tools and experimental products that interact with the Uniswap protocol.</p>
+          <h1>Use Bigswap</h1>
+          <p>We build open tools and experimental products that interact with the Bigswap protocol.</p>
         </StyledGoal>
       </StyledSectionFlex>
       <StyledSectionFlex wrapSmall={false} style={{ paddingTop: '2rem' }}>
         <MiniCard
-          href="https://app.uniswap.org"
-          title={'Uniswap Interface'}
+          href="https://bigswap.app"
+          title={'Bigswap Interface'}
           image={props.data.swap.childImageSharp.fluid}
           desc={'Trade tokens, add liquidity and create new pools.'}
         />
         <MiniCard
-          href="https://uniswap.info"
-          title={'Uniswap Info'}
+          href="https://Bigswap.info"
+          title={'Bigswap Info'}
           image={props.data.info.childImageSharp.fluid}
           desc={'In depth Uniswap protocol market data.'}
           backgroundColor={'#F3BE1E'}
         />
         <MiniCard
-          href="https://unisocks.exchange"
-          title={'Unisocks'}
+          href="https://mutualdex.com"
+          title={'MutualDEX Wallet'}
           image={props.data.socks.childImageSharp.fluid}
           desc={'Experimental speculative fashion.'}
           backgroundColor={'#000000'}
@@ -372,9 +372,9 @@ const GoalSection = () => {
       <StyledGoal>
         <h1>Mission</h1>
         <p>
-          <b>Uniswap</b> is transparent, censorship-resistant financial infrastructure for Ethereum.
+          <b>Bigswap</b> is transparent, censorship-resistant financial infrastructure for Ethereum.
         </p>
-        <p>Uniswap lowers barriers of entry to financial participation and removes central points of failure.</p>
+        <p>Bigswap lowers barriers of entry to financial participation and removes central points of failure.</p>
         <p>
           It enables anyone to create new markets, provide liquidity, and build financial applications that could not
           have existed before.
