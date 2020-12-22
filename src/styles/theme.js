@@ -77,7 +77,7 @@ export const theme = darkMode => ({
     grey5: darkMode ? '#6C7284' : '#888D9B',
 
     white: '#FFFFFF',
-    black: '#000000',
+    black: '#00008B',
 
     green1: '#E6F3EC',
     green2: '#27AE60',
