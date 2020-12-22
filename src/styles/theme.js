@@ -91,8 +91,8 @@ export const theme = darkMode => ({
 
     red1: '#FF6871',
 
-    link: darkMode ? '#2F80ED' : '#000000',
-    invertedLink: darkMode ? '#2F80ED' : '#000000'
+    link: darkMode ? '#2F80ED' : '#00008B',
+    invertedLink: darkMode ? '#2F80ED' : '#00008B'
   },
 
   shadows: {
