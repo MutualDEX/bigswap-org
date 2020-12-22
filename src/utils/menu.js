@@ -15,7 +15,7 @@ const menu = [
       {
         name: 'MutualDEX Wallet',
         link: 'https://mutualdex.com/',
-        description: 'A new Ethereum token list standard.'
+        description: 'Decentaliized Wallet.'
       },
       {
         name: 'open',
