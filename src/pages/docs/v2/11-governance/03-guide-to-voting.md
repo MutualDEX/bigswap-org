@@ -13,7 +13,7 @@ In order to participate you will need:
 
 The governance [process](https://uniswap.org/docs/v2/governance/process/) begins in the [Governance Forum](https://gov.uniswap.org/), where you can find proposals under consideration, gather information about community sentiment, and engage with the community.
 
-Once a given proposal has made it through the proposal process and is ready for voting, it will appear in the Bigswap [voting dashboard](https://app.uniswap.org/#/vote) - where you can view all current and former Uniswap proposals.
+Once a given proposal has made it through the proposal process and is ready for voting, it will appear in the Bigswap [voting dashboard](https://bigswap.app/#/vote) - where you can view all current and former Bigswap proposals.
 
 ![](images/Proposals_Overview.png)
 
@@ -65,4 +65,4 @@ When you click to cast your vote, metamask will pop up asking you to confirm you
 
 ![](images/Submitting_Vote.png)
 
-That’s it! Once your transaction has been confirmed, you will have cast your vote and participated in Uniswap Governance. 
+That’s it! Once your transaction has been confirmed, you will have cast your vote and participated in Bigswap Governance. 
