@@ -3,24 +3,24 @@ title: Flash Swaps
 tags: flash-swaps, documentation
 ---
 
-Uniswap flash swaps allow you to withdraw up to the full reserves of any ERC20 token on Uniswap and execute arbitrary logic at no upfront cost, provided that by the end of the transaction you either:
+Bigswap flash swaps allow you to withdraw up to the full reserves of any ERC20 token on Uniswap and execute arbitrary logic at no upfront cost, provided that by the end of the transaction you either:
 
 - pay for the withdrawn ERC20 tokens with the corresponding pair tokens
 - return the withdrawn ERC20 tokens along with a small fee
 
-Flash swaps are incredibly useful because they obviate upfront capital requirements and unnecessary order-of-operations constraints for multi-step transactions involving Uniswap.
+Flash swaps are incredibly useful because they obviate upfront capital requirements and unnecessary order-of-operations constraints for multi-step transactions involving Bigswap.
 
 # Examples
 
 ## Capital Free Arbitrage
 
-One particularly interesting use case for flash swaps is capital-free arbitrage. It's well-known that an integral part of Uniswap's design is to create incentives for arbitrageurs to trade the Uniswap price to a "fair" market price. While game-theoretically sound, this strategy is accessible only to those with sufficient capital to take advantage of arbitrage opportunities. Flash swaps remove this barrier entirely, effectively democratizing arbitrage.
+One particularly interesting use case for flash swaps is capital-free arbitrage. It's well-known that an integral part of Bigswap's design is to create incentives for arbitrageurs to trade the Bigswap price to a "fair" market price. While game-theoretically sound, this strategy is accessible only to those with sufficient capital to take advantage of arbitrage opportunities. Flash swaps remove this barrier entirely, effectively democratizing arbitrage.
 
 Imagine a scenario where the cost of buying 1 ETH on Uniswap is 200 DAI (which is calculated by calling `getAmountIn` with 1 ETH specified as an exact output), and on Oasis (or any other trading venue), 1 ETH buys 220 DAI. To anyone with 200 DAI available, this situation represents a risk-free profit of 20 DAI. Unfortunately, you may not have 200 DAI lying around. With flash swaps, however, this risk-free profit is available for anyone to take as long as they're able to pay gas fees.
 
-### Withdrawing ETH from Uniswap
+### Withdrawing ETH from Bigswap
 
-The first step is to _optimistically_ withdraw 1 ETH from Uniswap via a flash swap. This will serve as the capital that we use to execute our arbitrage. Note that in this scenario, we're assuming that:
+The first step is to _optimistically_ withdraw 1 ETH from Bigswap via a flash swap. This will serve as the capital that we use to execute our arbitrage. Note that in this scenario, we're assuming that:
 
 - 1 ETH is the pre-calculated profit-maximizing trade
 - The price has not changed on Uniswap or Oasis since our calculation
@@ -31,11 +31,11 @@ It may be the case that we'd like to calculate the profit-maximizing trade on-ch
 
 ### Trade at External Venue
 
-Once we've obtained our temporary capital of 1 ETH from Uniswap, we now can trade this for 220 DAI on Oasis. Once we've received the DAI, we need to pay Uniswap back. We've mentioned that the amount required to cover 1 ETH is 200 DAI, calculated via `getAmountIn`. So, after sending 200 of the DAI back to the Uniswap pair, you're left with 20 DAI of profit!
+Once we've obtained our temporary capital of 1 ETH from Bigswap, we now can trade this for 220 DAI on Oasis. Once we've received the DAI, we need to pay Bigswap back. We've mentioned that the amount required to cover 1 ETH is 200 DAI, calculated via `getAmountIn`. So, after sending 200 of the DAI back to the Uniswap pair, you're left with 20 DAI of profit!
 
 ## Instant Leverage
 
-Flash swaps can be used to improve the efficiency of levering up using lending protocols and Uniswap.
+Flash swaps can be used to improve the efficiency of levering up using lending protocols and Bigswap.
 
 Consider Maker in its simplest form: a system which accepts ETH as collateral and allows DAI to be minted against it while ensuring that the value of the ETH never drops below 150% of the value of the DAI.
 
