@@ -186,12 +186,6 @@ const IndexPage = props => {
 
   return (
     <Layout path={props.location.pathname} nofooter={true}>
-      <BGCard>
-        <CardBGImage isDark={isDark} />
-        <CardNoise />
-      </BGCard>
-      <Ticker />
-      <BG />
       <SEO
         title=""
         path={props.location.pathname}
