@@ -23,7 +23,7 @@ function uniswapV2Call(address sender, uint amount0, uint amount1, bytes calldat
 
 The logic behind this identification strategy is simple: the vast majority of valid flash swap use cases involve interactions with external protocols. The best way to pass information dictating how these interactions happen (function arguments, safety parameters, addresses, etc.) is via the `data` parameter. It's expected that `data` will be `abi.decode`d from within `uniswapV2Call`. In the rare case where no data is required, callers should ensure that `data.length` equals 1 (i.e. encode a single junk byte as `bytes`), and then ignore this argument in `uniswapV2Call`.
 
-Pairs call `uniswapV2Call` with the `sender` argument set to the `msg.sender` of the `swap`. `amount0` and `amount1` are simply `amount0Out` and `amount1Out`.
+Pairs call `BigswapV2Call` with the `sender` argument set to the `msg.sender` of the `swap`. `amount0` and `amount1` are simply `amount0Out` and `amount1Out`.
 
 # Using BigswapV2Call
 
@@ -31,9 +31,9 @@ There are several conditions that should be checked in all `BigswapV2Call` funct
 
 ```solidity
 function BigswapV2Call(address sender, uint amount0, uint amount1, bytes calldata data) {
-  address token0 = IUniswapV2Pair(msg.sender).token0(); // fetch the address of token0
-  address token1 = IUniswapV2Pair(msg.sender).token1(); // fetch the address of token1
-  assert(msg.sender == IUniswapV2Factory(factoryV2).getPair(token0, token1)); // ensure that msg.sender is a V2 pair
+  address token0 = IBigswapV2Pair(msg.sender).token0(); // fetch the address of token0
+  address token1 = IBigswapV2Pair(msg.sender).token1(); // fetch the address of token1
+  assert(msg.sender == IBigswapV2Factory(factoryV2).getPair(token0, token1)); // ensure that msg.sender is a V2 pair
   // rest of the function goes here!
 }
 ```
@@ -42,7 +42,7 @@ The first 2 lines simply fetch the token addresses from the pair, and the 3rd en
 
 # Repayment
 
-At the end of `uniswapV2Call`, contracts must return enough tokens to the pair to make it whole. Specifically, this means that the product of the pair reserves after the swap, discounting all token amounts sent by 0.3% LP fee, must be greater than before.
+At the end of `BigswapV2Call`, contracts must return enough tokens to the pair to make it whole. Specifically, this means that the product of the pair reserves after the swap, discounting all token amounts sent by 0.3% LP fee, must be greater than before.
 
 ## Multi-Token
 
@@ -56,7 +56,7 @@ In the case where the token withdrawn is the _same_ as the token returned (i.e. 
 
 `DAIReservePre - DAIWithdrawn + (DAIReturned * .997) >= DAIReservePre`
 
-It may be more intuitive to rewrite this formula in terms of a "fee" levied on the _withdrawn_ amount (despite the fact that Uniswap always levies fees on input amounts, in this case the _returned_ amount, here we can simplify to an effective fee on the _withdrawn_ amount). If we rearrange, the formula looks like:
+It may be more intuitive to rewrite this formula in terms of a "fee" levied on the _withdrawn_ amount (despite the fact that Bigswap always levies fees on input amounts, in this case the _returned_ amount, here we can simplify to an effective fee on the _withdrawn_ amount). If we rearrange, the formula looks like:
 
 `(DAIReturned * .997) - DAIWithdrawn >= 0`
 
