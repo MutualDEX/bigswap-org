@@ -6,7 +6,7 @@ related: '/docs/v2/core-concepts/pools'
 
 ![](/images/participants.jpg)
 
-The Bigswap ecosystem is primarily comprised of three types of users: liquidity providers, traders, and developers. Liquidity providers are incentivized to contribute [ERC-20](https://eips.ethereum.org/EIPS/eip-20) tokens to common liquidity pools. Traders can swap these tokens for one another for a fixed <Link to="/docs/v2/advanced-topics/fees">0.50% fee</Link> (which goes to liquidity providers). Developers can integrate directly with Uniswap smart contracts to power new and exciting interactions with tokens, trading interfaces, retail experiences, and more.
+The Bigswap ecosystem is primarily comprised of three types of users: liquidity providers, traders, and developers. Liquidity providers are incentivized to contribute [ERC-20](https://eips.ethereum.org/EIPS/eip-20) tokens to common liquidity pools. Traders can swap these tokens for one another for a fixed <Link to="/docs/v2/advanced-topics/fees">0.50% fee</Link> (which goes to liquidity providers). Developers can integrate directly with Bigswap smart contracts to power new and exciting interactions with tokens, trading interfaces, retail experiences, and more.
 
 In total, interactions between these classes create a positive feedback loop, fueling digital economies by defining a common language through which tokens can be pooled, traded and used.
 
@@ -40,13 +40,9 @@ In all cases, trades are subject to the same flat fee for trading on the protoco
 
 There are far too many ways Uniswap is used in the wider Ethereum ecosystem to count, but some examples include:
 
-- The open-source, accessible nature of Uniswap means there are countless UX experiments and front-ends built to offer access to Uniswap functionality. You can find Uniswap functions in most of the major DeFi dashboard projects. There are also many [Uniswap-specific tools](https://github.com/Uniswap/universe) built by the community.
-
 - Wallets often integrate swapping and liquidity provision functionality as a core offering of their product.
 
 - DEX (decentralized exchange) aggregators pull liquidity from many liquidity protocols to offer traders the best prices but splitting their trades. Bigswap is the biggest single decentralized liquidity source for these projects.
-
-- Smart contract developers use the suite of functions available to invent new DeFi tools and other various experimental ideas. See projects like [Unisocks](https://unisocks.exchange/) or [Zora](https://ourzora.com/), among many, many others.
 
 # Bigswap Team and Community
 
