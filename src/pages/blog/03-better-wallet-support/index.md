@@ -3,12 +3,12 @@ title: 'Better Wallet Support'
 date: '2019-12-05'
 author: 'Callil Capuozzo'
 featuredImage: ./featured.jpg
-previewText: 'The Uniswap interface now supports a wide range of connection types including Wallet Connect!'
+previewText: 'The Bigswap interface now supports a wide range of connection types including Wallet Connect!'
 ---
 
 ![](https://cdn-images-1.medium.com/max/5400/1*7wgRREUzm8paSw9ZrR4uYw.png)
 
-We’re improving wallet support on [app.uniswap.org](https://app.uniswap.org/swap). To start we’ve added support for:
+We’re improving wallet support, to start we’ve added support for:
 
 - [WalletConnect](https://walletconnect.org/)
 
