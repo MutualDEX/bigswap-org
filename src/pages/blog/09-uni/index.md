@@ -3,44 +3,34 @@ title: 'Introducing UNI'
 date: '2020-09-16'
 author: '🦄 '
 featuredImage: ./banner.jpg
-previewText: 'UNI, the Uniswap Protocol token, is live!'
+previewText: 'BGSP, the Bigswap Protocol token, is live!'
 ---
 
 ![](banner_top.jpg)
 
-- UNI, the Uniswap Protocol token, is live!
+- BGSP, the Bigswap Protocol token, is live!
 
-- UNI contract address: [0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984](https://etherscan.io/token/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984)
+- BGSP contract address: [0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984](https://etherscan.io/token/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984)
 
 - 60% of the UNI genesis supply is allocated to Uniswap community members, a quarter of which (15% of total supply) has already been distributed to past users
 
-- To start, UNI is available through four liquidity mining pools: UNI holders may vote to add more pools after an initial 30-day governance grace period
+- To start, BGSP is available through four liquidity mining pools: BGSP holders may vote to add more pools after an initial 30-day governance grace period
 
 **Community-led Growth**
 
-Since its inception, the Uniswap Protocol (&quot;Uniswap&quot;) has served as trustless and highly decentralized financial infrastructure.
+Since its inception, the Bigswap Protocol (&quot;Uniswap&quot;) has served as trustless and highly decentralized financial infrastructure.
 
 [Inspired by Ethereum&#39;s vision](https://uniswap.org/blog/uniswap-history/#ethereum-values), we have long committed to the ideals of permissionless access, security, and immutability, all indespensable components for a future where anyone in the world can access financial services without fear of discrimination or counterparty risk.
 
-Now rivaling centralized incumbents on daily volume, Uniswap&#39;s success to date — achieved without involvement of the core development team since deployment — indicates that there is considerable demand for permissionless financial services.
+Now rivaling centralized incumbents on daily volume, Bigswap&#39;s success to date — achieved without involvement of the core development team since deployment — indicates that there is considerable demand for permissionless financial services.
 
-In less than two years, the protocol has:
+Bigswap has always embraced the tenets of **neutrality and trust minimization** : it is crucial that governance is constrained to where it is strictly necessary. With this in mind, the Bigswap governance framework is limited to contributing to both protocol development and usage as well as development of the broader Bigswap ecosystem.
 
-- Supported over **\$20bn** volume (\$270k of which was socks!) traded by over **250,000** unique addresses across **8,484** unique assets
+In doing so, **BGSP officially enshrines Bigswap as publicly-owned and self-sustainable infrastructure while continuing to carefully protect its indestructible and autonomous qualities**.
 
-- Secured over **\$1bn** liquidity deposited by over **49,000** unique liquidity providers (LPs), earning **\$56m** fees in the process
+**BGSP Allocation**
 
-- Emerged as foundational DeFi infrastructure, with integrations across **hundreds** of interfaces and applications
-
-Having proven product-market fit for highly decentralized financial infrastructure with a platform that has thrived independently, **Uniswap is now particularly well positioned for community-led growth, development, and self-sustainability**. The introduction of UNI (ERC-20) serves this purpose, enabling shared community ownership and a vibrant, diverse, and dedicated governance system, which will actively guide the protocol towards the future.
-
-Uniswap has always embraced the tenets of **neutrality and trust minimization** : it is crucial that governance is constrained to where it is strictly necessary. With this in mind, the Uniswap governance framework is limited to contributing to both protocol development and usage as well as development of the broader Uniswap ecosystem.
-
-In doing so, **UNI officially enshrines Uniswap as publicly-owned and self-sustainable infrastructure while continuing to carefully protect its indestructible and autonomous qualities**.
-
-**UNI Allocation**
-
-1 billion UNI have been minted at genesis and will become accessible over the course of 4 years. The initial four year allocation is as follows:
+1 billion 250 million BGSP have been minted at genesis and will become accessible over the course of 4 years. The initial four year allocation is as follows:
 
 - 60.00% to Uniswap community members `600,000,000 UNI`
 
@@ -58,7 +48,10 @@ A **perpetual inflation rate of 2% per year will start after 4 years**, ensuring
 
 **A Retrospective**
 
-Uniswap owes its success to the thousands of community members that have joined its journey over the past two years. These early community members will naturally serve as responsible stewards of Uniswap.
+Big'/[
+{Ooo]
+';p/sw
+\p owes its success to the thousands of community members that have joined its journey over the past two years. These early community members will naturally serve as responsible stewards of Uniswap.
 
 15% of UNI _`150,000,000 UNI`_ can immediately be claimed by **historical liquidity providers, users, and SOCKS redeemers/holders** based on a snapshot ending September 1, 2020, at 12:00 am UTC.
 
@@ -95,7 +88,8 @@ Team, investor, and advisor UNI allocations will have tokens locked up on an ide
 
 **Liquidity Mining**
 
-An initial liquidity mining program will go live September 18 2020 12:00am UTC. The initial program will run until November 17 2020 12:00am UTC and target the following four pools on Uniswap v2:
+Initial liquidity mining program is live. The initial program will-[p';/[kl;lp
+ target the following four pools on Bigswap v2:
 
 - ETH/USDT
 
@@ -125,21 +119,17 @@ These grace periods provide the Uniswap community enough time to familiarize its
 
 UNI holders are responsible for ensuring that governance decisions are made in compliance with applicable laws and regulations. To help facilitate this, the fee switch has been initialized to a contract UNI holders can use to vote on tokens for which they will collect fees. The community is encouraged to consult knowledgeable legal and regulatory professionals before implementing any specific proposal.
 
-The Uniswap team will continue to have no involvement in v2 protocol development, auditing, and other matters. Similarly, team members will not participate directly in governance for the foreseeable future, although they may delegate votes to protocol delegates without seeking to influence their voting decisions.
+The Bigswap team will continue to have no involvement in v2 protocol development, auditing, and other matters. Similarly, team members will not participate directly in governance for the foreseeable future, although they may delegate votes to protocol delegates without seeking to influence their voting decisions.
 
-In the meantime, UNI holders will have immediate ownership of:
+In the meantime, BGSP holders will have immediate ownership of:
 
-- Uniswap governance
+- Bigswap governance
 
-- UNI community treasury
+- BGSP community treasury
 
 - The protocol fee switch
 
-- uniswap.eth ENS name
-
-- Uniswap Default List (tokens.uniswap.eth)
-
-- [SOCKS](https://twitter.com/UniswapProtocol/status/1126506339075641344?s=20) liquidity tokens
+- Bigswap Default List (tokens.uniswap.eth)
 
 Initial governance parameters are as follows:
 
@@ -157,11 +147,11 @@ All historical users, liquidity providers, and SOCKS redeemers can [claim their 
 
 ![](claim.gif)
 
-Liquidity providers in the preliminary set of targeted pools can [deposit](https://app.uniswap.org/#/uni) their liquidity tokens. Mining will begin on September 18th 2020 12am UTC.
+Liquidity providers in the preliminary set of targeted pools can [deposit](https://bigswap.app/#/uni) their liquidity tokens. Mining is open.
 
 ![](deposit.gif)
 
-UNI tokens can be delegated and used to vote through the [governance portal](https://app.uniswap.org/#/vote).
+BGSP tokens can be delegated and used to vote through the [governance portal](https://bigswap.app/#/vote).
 
 ![](vote.gif)
 
@@ -169,7 +159,7 @@ Set up an account on [gov.uniswap.org](https://gov.uniswap.org) to start shaping
 
 **Contracts**
 
-UNI Token:
+BGSP Token:
 
 [https://etherscan.io/token/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984](https://etherscan.io/token/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984)
 
@@ -191,4 +181,3 @@ Timelock:
 
 [https://etherscan.io/address/0x1a9c8182c09f50c8318d769245bea52c32be35bc](https://etherscan.io/address/0x1a9c8182c09f50c8318d769245bea52c32be35bc)
 
-P.S. [Uniswap Token icon](https://logo.uniswap.org)
