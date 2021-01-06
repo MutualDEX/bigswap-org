@@ -48,10 +48,3 @@ Fortmatic allows users to sign into their wallet through traditional methods lik
 
 This is all built on the new v6.0 release of the [web3-react library](https://github.com/NoahZinsmeister/web3-react) built by our very own [Noah Zinsmeister](https://twitter.com/NoahZinsmeister). This release features many improvements including improved connector logic and a monorepo with dynamic imports to get your bundle sizes down. This enables us to provide great UX for seamlessly switching between wallet providers.
 
----
-
-Do you use another wallet that’s not supported yet? [Let us know.](http://contact@uniswap.org)
-
-Happy Holidays from the Uniswap team!
-
-❤
