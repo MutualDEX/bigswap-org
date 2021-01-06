@@ -3,7 +3,7 @@ title: Flash Swaps
 tags: smart contract integration, developer-guides, documentation
 ---
 
-Flash swaps are an integral feature of Uniswap V2. In fact, under the hood, all swaps are actually flash swaps! This simply means that pair contracts send output tokens to the recipient _before_ enforcing that enough input tokens have been received. This is slightly atypical, as one might expect a pair to ensure it's received payment before delivery. However, because Ethereum transactions are _atomic_, we can roll back the entire swap if it turns out that the contract hasn't received enough tokens to make itself whole by the end of the transaction.
+Flash swaps are an integral feature of Bigswap V2. In fact, under the hood, all swaps are actually flash swaps! This simply means that pair contracts send output tokens to the recipient _before_ enforcing that enough input tokens have been received. This is slightly atypical, as one might expect a pair to ensure it's received payment before delivery. However, because Ethereum transactions are _atomic_, we can roll back the entire swap if it turns out that the contract hasn't received enough tokens to make itself whole by the end of the transaction.
 
 To see how this all works, let's start by examining the interface of the `swap` function:
 
@@ -25,12 +25,12 @@ The logic behind this identification strategy is simple: the vast majority of va
 
 Pairs call `uniswapV2Call` with the `sender` argument set to the `msg.sender` of the `swap`. `amount0` and `amount1` are simply `amount0Out` and `amount1Out`.
 
-# Using uniswapV2Call
+# Using BigswapV2Call
 
-There are several conditions that should be checked in all `uniswapV2Call` functions:
+There are several conditions that should be checked in all `BigswapV2Call` functions:
 
 ```solidity
-function uniswapV2Call(address sender, uint amount0, uint amount1, bytes calldata data) {
+function BigswapV2Call(address sender, uint amount0, uint amount1, bytes calldata data) {
   address token0 = IUniswapV2Pair(msg.sender).token0(); // fetch the address of token0
   address token1 = IUniswapV2Pair(msg.sender).token1(); // fetch the address of token1
   assert(msg.sender == IUniswapV2Factory(factoryV2).getPair(token0, token1)); // ensure that msg.sender is a V2 pair
@@ -38,7 +38,7 @@ function uniswapV2Call(address sender, uint amount0, uint amount1, bytes calldat
 }
 ```
 
-The first 2 lines simply fetch the token addresses from the pair, and the 3rd ensures that the `msg.sender` is an actual Uniswap V2 pair address.
+The first 2 lines simply fetch the token addresses from the pair, and the 3rd ensures that the `msg.sender` is an actual Bigswap V2 pair address.
 
 # Repayment
 
@@ -68,22 +68,4 @@ So, the effective fee on the withdrawn amount is `.003 / .997 ≈ 0.3009027%`.
 
 For further exploration of flash swaps, see the <a href='/whitepaper.pdf' target='_blank' rel='noopener noreferrer'>whitepaper</a>.
 
-# Example
 
-A fully functional example of flash swaps is available: [`ExampleFlashSwap.sol`](https://github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/examples/ExampleFlashSwap.sol).
-
-<Github href="https://github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/examples/ExampleSwapToPrice.sol">ExampleSwapToPrice.sol</Github>
-
-# Interface
-
-```solidity
-import '@uniswap/v2-core/contracts/interfaces/IUniswapV2Callee.sol';
-```
-
-```solidity
-pragma solidity >=0.5.0;
-
-interface IUniswapV2Callee {
-  function uniswapV2Call(address sender, uint amount0, uint amount1, bytes calldata data) external;
-}
-```
