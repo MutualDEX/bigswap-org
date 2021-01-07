@@ -16,18 +16,18 @@ const mediaWidthTemplates = Object.keys(MEDIA_WIDTHS).reduce((accumulator, size)
 }, {})
 
 const white = '#FFFFFF'
-const black = '#000000'
+const black = '#0000b8'
 
 export const theme = darkMode => ({
   white,
   black,
-  textColor: darkMode ? white : '#010101',
+  textColor: darkMode ? white : '#0000b8',
   invertedTextColor: darkMode ? '#010101' : white,
   greyText: darkMode ? white : '#6C7284',
 
   heroBG: darkMode
-    ? 'radial-gradient(76.02% 75.41% at 1.84% 0%, #000000 0%, #021d43 100%)'
-    : 'radial-gradient(76.02% 75.41% at 1.84% 0%, #FF3696 0%, #FFD8EB 100%);',
+    ? 'radial-gradient(76.02% 75.41% at 1.84% 0%, #0000b8 0%, #021d43 100%)'
+    : 'radial-gradient(76.02% 75.41% at 1.84% 0%, #0000b8 0%, #FFD8EB 100%);',
   invertImage: darkMode ? 'filter: invert(0);' : 'filter: invert(1);',
 
   // for setting css on <html>
@@ -82,9 +82,9 @@ export const theme = darkMode => ({
     green1: '#E6F3EC',
     green2: '#27AE60',
 
-    pink1: darkMode ? '#2F80ED' : '#FF007A',
-    pink2: '#FF8EC4',
-    pink3: '#FFD7EA',
+    pink1: darkMode ? '#2F80ED' : '#0000b8',
+    pink2: '#0000b8',
+    pink3: '#0000b8',
 
     yellow1: darkMode ? '#F3BE1E60' : '#F3BE1E60',
     yellow2: darkMode ? '#FFF4D260' : '#F7F2E360',
