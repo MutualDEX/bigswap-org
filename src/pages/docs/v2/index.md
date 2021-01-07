@@ -16,20 +16,10 @@ Explore the sidebar to find more specific documentation covering other aspects o
 
 The BIGswap codebase is comprised of an ecosystem of open source components.
 
-- [`uniswap-v2-core`](https://github.com/Uniswap/uniswap-v2-core)
-- [`uniswap-v2-periphery`](https://github.com/Uniswap/uniswap-v2-periphery)
-- [`uniswap-frontend`](https://github.com/Uniswap/uniswap-frontend)
-- [`uniswap-sdk`](https://github.com/Uniswap/uniswap-sdk)
-
-## Reference materials
-
-Get to know the BIGswap SDK and smart contract API objects, methods, attributes, and responses.
-
-- <Link to="/docs/v2/SDK">SDK</Link>
-- <Link to="/docs/v2/API">API</Link>
-- <Link to="/docs/v2/smart-contracts">Smart Contracts</Link>
-- [Whitepaper](/whitepaper.pdf)
-- <Link to="/docs/v2/governance/governance-reference">Governance</Link>
+- Bigswap-v2-core
+- Bigswap-v2-periphery
+- Bigswap-frontend
+- Bigswap-sdk
 
 
 ### Developer community
