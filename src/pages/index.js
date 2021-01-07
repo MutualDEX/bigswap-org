@@ -18,10 +18,10 @@ const BGCard = styled.span`
   background: ${({ theme }) => theme.heroBG};
   opacity: 0.6;
   @media (max-width: 960px) {
-    width: 0vw;
-    height: 0vh;
-    max-width: 0px;
-    max-height: 0px;
+    width: 960vw;
+    height: 600vh;
+    max-width: 960px;
+    max-height: 600px;
   }
   @media (min-width: 1441px) {
     width: 100%;
