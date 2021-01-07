@@ -13,7 +13,6 @@ import Discord from '../images/discord.inline.svg'
 import Github from '../images/githubicon.inline.svg'
 
 import SidebarV2 from './sidebarV2'
-import SidebarV1 from './sidebarV1'
 import { useMediaQuery } from '@react-hook/media-query'
 
 import { useDarkMode } from '../contexts/Application'
