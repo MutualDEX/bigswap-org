@@ -283,7 +283,7 @@ const SummarySection = props => {
       </StyledImgSection>
       <StyledImgSection>
         <h1>
-          <b>Uniswap</b> is a fully decentralized protocol for automated liquidity provision on Ethereum.
+          <b>Bigswap</b> is a fully decentralized protocol for automated liquidity provision on Ethereum.
         </h1>
 
         <p>
