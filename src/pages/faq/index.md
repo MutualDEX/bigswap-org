@@ -50,7 +50,6 @@ Bigswap pulls from the trustwallet asset repository on github. [https://github.c
 
 Bigswap is compatible with any ERC-20 token in the ethereum ecosystem. If you want your project to be searchable in their interface you should seek to be added to a reputable token list or share a link to your token using query parameters. Once loaded via link, the token will be added to their interface.
 
-Another option is to open a request using github [issues](https://github.com/Uniswap/uniswap-frontend/issues/new?assignees=&labels=token+request&template=token-request.md&title=).
 
 The Bigswap team makes no guarantees or provides any timeline. Nor will the team ever charge or request funds. We've added many UX features to make it easier to share a new token with communities like local storage support and custom linking. Please make use of them.
 
@@ -60,12 +59,5 @@ Ethereum requires gas to execute each transaction. You can also check ETH gas st
 
 # How can I see my liquidity provider fees?
 
-There are many community built tools like [https://www.uniswaproi.com/](https://www.uniswaproi.com/), [https://www.zapper.fi/dashboard](https://www.zapper.fi/dashboard) and [https://zerion.io/](https://zerion.io/). Uniswap provides no guarantees the information on these sites is correct.
+There are many community built tools like [https://www.uniswaproi.com/](https://www.uniswaproi.com/), [https://www.zapper.fi/dashboard](https://www.zapper.fi/dashboard) and [https://zerion.io/](https://zerion.io/). Bigswap provides no guarantees the information on these sites is correct.
 
-# I updated my token via a proxy contract, but the Bigswap information page is showing the old symbol / name!
-
-[Info.uniswap](https://info.uniswap.org/) reads the details of new tokens when they're added to the subgraph. There may be some circumstances where an old symbol or name isn't updated if the token was updated with a proxy contract. A guide to fix this yourself is forthcoming, in the meantime, reach out with the details on our developer discord.
-
-# Bigswap tools and resources
-
-[https://github.com/Uniswap/universe](https://github.com/Uniswap/universe)
