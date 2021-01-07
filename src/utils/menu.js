@@ -10,7 +10,7 @@ const menu = [
       {
         name: 'Analytics',
         link: 'https://bigswap.info/',
-        description: 'Uniswap analytics and historical data'
+        description: 'Bigswap analytics and historical data'
       },
       {
         name: 'MutualDEX Wallet',
@@ -32,9 +32,7 @@ const menu = [
         link: '/docs/v2'
       },
       { name: 'GitHub', link: 'https://github.com/MutualDEX' },
-      { name: 'Whitepaper', link: '/whitepaper.pdf' },
-      { name: 'Audit', link: '/audit.html' },
-      { name: 'Bug Bounty', link: '/bug-bounty' }
+      { name: 'Whitepaper', link: '/whitepaper.pdf' }
     ]
   },
   {
@@ -71,14 +69,6 @@ const menu = [
       {
         name: 'FAQ',
         link: '/faq'
-      },
-      {
-        name: 'Jobs',
-        link: '/about#jobs'
-      },
-      {
-        name: 'Logo & Brand',
-        link: '/about#brand'
       }
     ]
   }
