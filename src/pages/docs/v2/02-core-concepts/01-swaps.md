@@ -1,6 +1,6 @@
 ---
 title: Swaps
-subtitle: Learn about the core functionality of the uniswap protocol. Token Swaps.
+subtitle: Learn about the core functionality of the bigswap protocol. Token Swaps.
 tags: swaps, documentation
 ---
 
@@ -12,9 +12,9 @@ Token swaps in Bigswap are a simple way to trade one ERC-20 token for another.
 
 For end-users, swapping is intuitive: a user picks an input token and an output token. They specify an input amount, and the protocol calculates how much of the output token they’ll receive. They then execute the swap with one click, receiving the output token in their wallet immediately.
 
-In this guide, we’ll look at what happens during a swap at the protocol level in order to gain a deeper understanding of how Uniswap works.
+In this guide, we’ll look at what happens during a swap at the protocol level in order to gain a deeper understanding of how Bigswap works.
 
-Swaps in Bigswap are different from trades on traditional platforms. Uniswap does not use an order book to represent liquidity or determine prices. Uniswap uses an automated market maker mechanism to provide instant feedback on rates and slippage.
+Swaps in Bigswap are different from trades on traditional platforms. Uniswap does not use an order book to represent liquidity or determine prices. Bigswap uses an automated market maker mechanism to provide instant feedback on rates and slippage.
 
 As we learned in [Protocol Overview](/docs/v2/protocol-overview), each pair on Uniswap is actually underpinned by a liquidity pool. Liquidity pools are smart contracts that hold balances of two unique tokens and enforces rules around depositing and withdrawing them.
 
