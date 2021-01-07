@@ -248,7 +248,7 @@ const Header = props => {
         <StyledNav ref={node} open={isMenuOpen}>
           {!isMobile && <Search {...props} />}
           {isMobile &&
-            (v2Toggle ? <SidebarV2 parent={'/docs/'} {...props} />)}
+            (<SidebarV2 parent={'/docs/'} {...props} />)}
           <VersionToggle to={v2Toggle ?  '/docs/v2/'}>
             <VersionLabel toggled={v2Toggle}>V2</VersionLabel>
           </VersionToggle>
