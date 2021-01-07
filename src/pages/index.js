@@ -9,8 +9,8 @@ import { useDarkMode } from '../contexts/Application'
 import { CardBGImage, CardNoise, StyledLink, StyledExternalLink } from '../components/utils'
 
 const BGCard = styled.span`
-  width: 0vw;
-  height: 0vh;
+  width: 960vw;
+  height: 600vh;
   user-select: none;
   position: fixed;
   left: 10vw;
