@@ -13,39 +13,15 @@ For reference material on the Uniswap Governance system please see [Governance R
 
 # BGSP Address
 
-`Uni` is deployed at `0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984` on the Ethereum [mainnet](https://etherscan.io/address/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984), and the [Ropsten](https://ropsten.etherscan.io/address/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984), [Rinkeby](https://rinkeby.etherscan.io/address/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984), [Görli](https://goerli.etherscan.io/address/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984), and [Kovan](https://kovan.etherscan.io/address/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984) testnets. It was built from commit [ab22c08](https://github.com/Uniswap/governance/commit/ab22c084bacb2636a1aebf9759890063eb6e4946).
-
-## ABI
-
-```typescript
-import Uni from '@uniswap/governance/build/Uni.json'
-```
-
-[https://unpkg.com/@uniswap/governance@1.0.2/build/Uni.json](https://unpkg.com/@uniswap/governance@1.0.2/build/Uni.json)
+`BGSP` is deployed at `0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984` on the Ethereum [mainnet](https://etherscan.io/address/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984)
 
 # Timelock
 
-`Timelock` is deployed at `0x1a9C8182C09F50C8318d769245beA52c32BE35BC` on the Ethereum [mainnet](https://etherscan.io/address/0x1a9C8182C09F50C8318d769245beA52c32BE35BC), and the [Ropsten](https://ropsten.etherscan.io/address/0x1a9C8182C09F50C8318d769245beA52c32BE35BC), [Rinkeby](https://rinkeby.etherscan.io/address/0x1a9C8182C09F50C8318d769245beA52c32BE35BC), [Görli](https://goerli.etherscan.io/address/0x1a9C8182C09F50C8318d769245beA52c32BE35BC), and [Kovan](https://kovan.etherscan.io/address/0x1a9C8182C09F50C8318d769245beA52c32BE35BC) testnets. It was built from commit [ab22c08](https://github.com/Uniswap/governance/commit/ab22c084bacb2636a1aebf9759890063eb6e4946).
-
-## ABI
-
-```typescript
-import Timelock from '@uniswap/governance/build/Timelock.json'
-```
-
-[https://unpkg.com/@uniswap/governance@1.0.2/build/Timelock.json](https://unpkg.com/@uniswap/governance@1.0.2/build/Timelock.json)
+`Timelock` is deployed at `0x1a9C8182C09F50C8318d769245beA52c32BE35BC` on the Ethereum [mainnet](https://etherscan.io/address/0x1a9C8182C09F50C8318d769245beA52c32BE35BC),
 
 # GovernorAlpha
 
-`GovernorAlpha` is deployed at `0x5e4be8Bc9637f0EAA1A755019e06A68ce081D58F` on the Ethereum [mainnet](https://etherscan.io/address/0x5e4be8Bc9637f0EAA1A755019e06A68ce081D58F), and the [Ropsten](https://ropsten.etherscan.io/address/0x5e4be8Bc9637f0EAA1A755019e06A68ce081D58F), [Rinkeby](https://rinkeby.etherscan.io/address/0x5e4be8Bc9637f0EAA1A755019e06A68ce081D58F), [Görli](https://goerli.etherscan.io/address/0x5e4be8Bc9637f0EAA1A755019e06A68ce081D58F), and [Kovan](https://kovan.etherscan.io/address/0x5e4be8Bc9637f0EAA1A755019e06A68ce081D58F) testnets. It was built from commit [ab22c08](https://github.com/Uniswap/governance/commit/ab22c084bacb2636a1aebf9759890063eb6e4946).
-
-## ABI
-
-```typescript
-import GovernorAlpha from '@uniswap/governance/build/GovernorAlpha.json'
-```
-
-[https://unpkg.com/@uniswap/governance@1.0.2/build/GovernorAlpha.json](https://unpkg.com/@uniswap/governance@1.0.2/build/GovernorAlpha.json)
+`GovernorAlpha` is deployed at `0x5e4be8Bc9637f0EAA1A755019e06A68ce081D58F` on the Ethereum [mainnet](https://etherscan.io/address/0x5e4be8Bc9637f0EAA1A755019e06A68ce081D58F), 
 
 # Miscellaneous Addresses
 
