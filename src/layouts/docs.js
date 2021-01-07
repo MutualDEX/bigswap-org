@@ -178,7 +178,7 @@ const Docs = props => {
       }
     }
   `)
-  const isV1 = props.path.slice(0, 8) === '/docs/v1'
+  const isV2 = props.path.slice(0, 8) === '/docs/v2'
 
   const isMobile = useMediaQuery('(max-width: 960px)')
 
@@ -208,7 +208,7 @@ const Docs = props => {
           )
         })}
       <StyledDocs id="docs-header">
-        {!isMobile && (isV1 ? <SidebarV1 parent={'/docs/'} {...props} /> : <SidebarV2 parent={'/docs/'} {...props} />)}
+        {!isMobile && (isV2 ?  <SidebarV2 parent={'/docs/'} {...props} />)}
         <StyledMDX>
           <StyledPageTitle>
             <small style={{ marginBottom: '.5rem' }}>
