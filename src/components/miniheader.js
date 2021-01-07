@@ -247,11 +247,6 @@ const Header = props => {
         </MenuToggle>
         <StyledNav ref={node} open={isMenuOpen}>
           {!isMobile && <Search {...props} />}
-          {isMobile &&
-            (<SidebarV2 parent={'/docs/'} {...props} />)}
-          <VersionToggle to={v2Toggle ?  '/docs/v2/'}>
-            <VersionLabel toggled={v2Toggle}>V2</VersionLabel>
-          </VersionToggle>
           <StyledButton type="button" onClick={toggleDarkMode}>
             {darkMode ? <Sun size={20} /> : <Moon size={20} />}
           </StyledButton>
