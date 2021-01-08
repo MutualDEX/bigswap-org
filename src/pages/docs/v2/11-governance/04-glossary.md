@@ -9,9 +9,9 @@ tags: goveranance, documentation
 
 - **Proposal:** A proposal is executable code that modifies the governance contract or treasury and how they work. In order to create a proposal, a user must have at least 1% (10M BGSP) of all BGSP delegated to their address. Proposals are stored in the &quot;proposals&quot; mapping of the Governor smart contract. All proposals are subject to a 7-day voting period. If the proposer does not maintain their vote weight balance throughout the voting period, the proposal may be canceled by anyone.
 
-- **Quorum:** In order for a vote to pass, it must achieve quorum of 4% of all UNI (40M) voting in the affirmative. The purpose of the quorum is to ensure that the only measures that pass have adequate voter participation.
+- **Quorum:** In order for a vote to pass, it must achieve quorum of 3% of all BGSP (30M) voting in the affirmative. The purpose of the quorum is to ensure that the only measures that pass have adequate voter participation.
 
-- **Voting:** Users can vote for or against single proposals once they have voting rights delegated to their address. Votes can be cast while a proposal is in the &quot;Active&quot; state. Votes can be submitted immediately using &quot;castVote&quot; or submitted later with &quot;castVoteBySig&quot; (For more info on castVoteBySig and offline signatures, see EIP-712). If the majority of votes (and a 4% quorum of BGSP) vote for a proposal, the proposal may be queued in the Timelock.
+- **Voting:** Users can vote for or against single proposals once they have voting rights delegated to their address. Votes can be cast while a proposal is in the &quot;Active&quot; state. Votes can be submitted immediately using &quot;castVote&quot; or submitted later with &quot;castVoteBySig&quot; (For more info on castVoteBySig and offline signatures, see EIP-712). If the majority of votes (and a 3% quorum of BGSP) vote for a proposal, the proposal may be queued in the Timelock.
 
 - **Voting Period:** Once a proposal has been put forward, Uniswap community members will have a seven day period (the Voting Period) to cast their votes.
 
