@@ -12,13 +12,13 @@ previewText: 'BGSP, the Bigswap Protocol token, is live!'
 
 - BGSP contract address: [0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984](https://etherscan.io/token/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984)
 
-- 60% of the BGSP genesis supply is allocated to Bigswap community members. BGSP is available through four liquidity mining pools: BGSP holders may vote to add more pools after an initial 30-day governance grace period
+- 50% of the BGSP genesis supply is allocated to Bigswap community members. BGSP is available through four liquidity mining pools: BGSP holders may vote to add more pools after an initial 30-day governance grace period
 
 **Community-led Growth**
 
-Since its inception, the Bigswap Protocol (&quot;Uniswap&quot;) has served as trustless and highly decentralized financial infrastructure.
+Since its inception, the Bigswap Protocol has served as trustless and highly decentralized financial infrastructure.
 
-[Inspired by Ethereum&#39;s vision](https://uniswap.org/blog/uniswap-history/#ethereum-values), we have long committed to the ideals of permissionless access, security, and immutability, all indespensable components for a future where anyone in the world can access financial services without fear of discrimination or counterparty risk.
+We have long committed to the ideals of permissionless access, security, and immutability, all indespensable components for a future where anyone in the world can access financial services without fear of discrimination or counterparty risk.
 
 Now rivaling centralized incumbents on daily volume, Bigswap&#39;s success to date — achieved without involvement of the core development team since deployment — indicates that there is considerable demand for permissionless financial services.
 
@@ -43,38 +43,21 @@ Ensuring continued participation and contribution to Bigswap at the expense of p
 
 **A Retrospective**
 
-Big'/[
-{Ooo]
-';p/sw
-\p will owe its success to the thousands of community members that will have joined the journey over the next few years. These early community members will naturally serve as responsible stewards of Bigswap.
-
-_4.91664% pro-rata to all **49,192** historical LPs `49,166,400 UNI`_
-
-**~49 million UNI** are claimable by historical liquidity providers. The formula accounts for LP liquidity on a per-second basis since the deployment of Uniswap v1, ensuring that rewards are weighted towards LPs that provided liquidity when total liquidity was low.
-
-_10.06136% split evenly across all **251,534** historical user addresses `100,613,600 UNI`_
-
-400 UNI are claimable by each address that has ever called the Uniswap v1 or v2 contracts. This includes **~12,000** addresses that have only ever submitted failed transactions — love you guys.
-
-_0.022% to **220** SOCKS holders/redeemers `220,000 UNI`_
-
-1000 UNI are claimable by each address that has either redeemed SOCKS tokens for physical socks or owned at least one SOCKS token at the snapshot date.
+Bigswap will owe its success to the thousands of community members that will have joined the journey over the next few years. These early community members will naturally serve as responsible stewards of Bigswap.
 
 [View the formula source code here](https://github.com/Uniswap/retroactive-query)
 
 **Community Treasury**
 
-![](Release_Schedule.png)
+The governance treasury will retain 50% [625,000,000 BGSP] of BGSP supply to distribute on an ongoing basis through **contributor grants, community initiatives, liquidity mining**, and other programs.
 
-With 15% of tokens already available to be claimed by historical users and liquidity providers, the governance treasury will retain 43% [430,000,000 UNI] of UNI supply to distribute on an ongoing basis through **contributor grants, community initiatives, liquidity mining**, and other programs.
+BGSP will vest to the governance treasury on a continuous basis according to the following schedule. Governance will have access to vested BGSP. 
 
-UNI will vest to the governance treasury on a continuous basis according to the following schedule. Governance will have access to vested UNI starting October 18 2020 12:00am UTC.
-
-| **Year** | **Community Treasury** | **Distribution %** |
-| -------- | ---------------------- | ------------------ |
-| Year 1   | 172,000,000 UNI        | 40%                |
-| Year 2   | 129,000,000 UNI        | 30%                |
-| Year 3   | 86,000,000 UNI         | 20%                |
+| **Year** | **Community Treasury** | 
+| -------- | ---------------------- | 
+| Year 1   | 250,000,000 BGSP       | 
+| Year 2   | 200,000,000 BGSP       | 
+| Year 3   | 175,000,000 BGSP       | 
 
 
 Team, investor, and advisor BGSP allocations will have tokens locked up on an identical schedule.
@@ -128,7 +111,7 @@ Initial governance parameters are as follows:
 
 - 1% of UNI total supply (delegated) to submit a governance proposal
 
-- 4% of UNI supply required to vote &#39;yes&#39; to reach quorum
+- 3% of UNI supply required to vote &#39;yes&#39; to reach quorum
 
 - 7 day voting period
 
