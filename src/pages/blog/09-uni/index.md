@@ -1,7 +1,7 @@
 ---
-title: 'Introducing UNI'
+title: 'Introducing BGSP'
 date: '2020-09-16'
-author: '🦄 '
+author:
 featuredImage: ./banner.jpg
 previewText: 'BGSP, the Bigswap Protocol token, is live!'
 ---
@@ -12,9 +12,7 @@ previewText: 'BGSP, the Bigswap Protocol token, is live!'
 
 - BGSP contract address: [0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984](https://etherscan.io/token/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984)
 
-- 60% of the UNI genesis supply is allocated to Uniswap community members, a quarter of which (15% of total supply) has already been distributed to past users
-
-- To start, BGSP is available through four liquidity mining pools: BGSP holders may vote to add more pools after an initial 30-day governance grace period
+- 60% of the BGSP genesis supply is allocated to Bigswap community members. BGSP is available through four liquidity mining pools: BGSP holders may vote to add more pools after an initial 30-day governance grace period
 
 **Community-led Growth**
 
@@ -30,30 +28,25 @@ In doing so, **BGSP officially enshrines Bigswap as publicly-owned and self-sust
 
 **BGSP Allocation**
 
-1 billion 250 million BGSP have been minted at genesis and will become accessible over the course of 4 years. The initial four year allocation is as follows:
+1 billion 250 million BGSP have been minted at genesis and will become accessible over the course of 3 years. The initial three year allocation is as follows:
 
-- 60.00% to Uniswap community members `600,000,000 UNI`
+- 50.00% to Bigswap community members `625,000,000 BGSP`
 
-- 21.266% to team members and future employees with 4-year vesting `212,660,000 UNI`
+- 25.00% to team members and future employees with 3-year vesting `312,500,000 BGSP`
 
-- 18.044% to investors with 4-year vesting `180,440,000 UNI`
+- 12.50% to investors with 3-year vesting `161,250,000 BGSP`
 
-- 0.69% to advisors with 4-year vesting `6,900,000 UNI`
+- 12.50% to Advisors, Marketing, Promotion with 3-year vesting `161,250,000 BGSP`
 
-A **perpetual inflation rate of 2% per year will start after 4 years**, ensuring continued participation and contribution to Uniswap at the expense of passive UNI holders.
+Ensuring continued participation and contribution to Bigswap at the expense of passive BGSP holders.
 
-![](Genesis.png)
-
-![](Inflation.png)
 
 **A Retrospective**
 
 Big'/[
 {Ooo]
 ';p/sw
-\p owes its success to the thousands of community members that have joined its journey over the past two years. These early community members will naturally serve as responsible stewards of Uniswap.
-
-15% of UNI _`150,000,000 UNI`_ can immediately be claimed by **historical liquidity providers, users, and SOCKS redeemers/holders** based on a snapshot ending September 1, 2020, at 12:00 am UTC.
+\p will owe its success to the thousands of community members that will have joined the journey over the next few years. These early community members will naturally serve as responsible stewards of Bigswap.
 
 _4.91664% pro-rata to all **49,192** historical LPs `49,166,400 UNI`_
 
@@ -82,9 +75,9 @@ UNI will vest to the governance treasury on a continuous basis according to the 
 | Year 1   | 172,000,000 UNI        | 40%                |
 | Year 2   | 129,000,000 UNI        | 30%                |
 | Year 3   | 86,000,000 UNI         | 20%                |
-| Year 4   | 43,000,000 UNI         | 10%                |
 
-Team, investor, and advisor UNI allocations will have tokens locked up on an identical schedule.
+
+Team, investor, and advisor BGSP allocations will have tokens locked up on an identical schedule.
 
 **Liquidity Mining**
 
@@ -99,21 +92,21 @@ Initial liquidity mining program is live. The initial program will-[p';/[kl;lp
 
 - ETH/WBTC
 
-5,000,000 UNI will be allocated per pool to LPs proportional to liquidity, which roughly translates to:
+5,000,000 BGSP will be allocated per pool to LPs proportional to liquidity, which roughly translates to:
 
-- 83,333 UNI per pool per day
+- 83,333 BGSP per pool per day
 
-- 13.5 UNI per pool per block (14s blocktime)
+- 13.5 BGSP per pool per block (14s blocktime)
 
-These UNI are not subject to vesting or lock up.
+These BGSP are not subject to vesting or lock up.
 
-After 30 days, governance will reach its vesting cliff and Uniswap governance will control all UNI vested to the Uniswap treasury. At this point, governance can vote to allocate UNI towards grants, strategic partnerships, governance initiatives, additional liquidity mining pools, and other programs.
+After 30 days, governance will reach its vesting cliff and Bigswap governance will control all BGSP vested to the Bigswap treasury. At this point, governance can vote to allocate BGSP towards grants, strategic partnerships, governance initiatives, additional liquidity mining pools, and other programs.
 
 **Governance assets**
 
-A community-managed treasury opens up a world of infinite possibilities. We hope to see a variety of experimentation, including ecosystem grants and public goods funding, both of which can foster additional Uniswap ecosystem growth. Uniswap has set the standard for automated liquidity provision: it is now time to set the benchmark for responsible but radical, long-term aligned on-chain governance systems.
+A community-managed treasury opens up a world of infinite possibilities. We hope to see a variety of experimentation, including ecosystem grants and public goods funding, both of which can foster additional Bigswap ecosystem growth. Uniswap has set the standard for automated liquidity provision: it is now time to set the benchmark for responsible but radical, long-term aligned on-chain governance systems.
 
-Uniswap governance will be live from day one, although control over the treasury will be delayed until October 17 2020 12:00am UTC. Control over the Uniswap fee switch is subject to a 180 day time lockdelay.
+Bigswap governance will be live from day one, although control over the treasury will be delayed until October 17 2020 12:00am UTC. Control over the Bigswap fee switch is subject to a 180 day time lockdelay.
 
 These grace periods provide the Uniswap community enough time to familiarize itself with the governance system, bring in **a diverse and high-quality set of protocol delegates,** and begin discussions and communications around potential governance proposals.
 
@@ -143,19 +136,13 @@ Initial governance parameters are as follows:
 
 **Next steps**
 
-All historical users, liquidity providers, and SOCKS redeemers can [claim their UNI now](https://app.uniswap.org/).
-
-![](claim.gif)
-
-Liquidity providers in the preliminary set of targeted pools can [deposit](https://bigswap.app/#/uni) their liquidity tokens. Mining is open.
+Liquidity providers in the preliminary set of targeted pools can [deposit](https://bigswap.app/#/elt) their liquidity tokens. Mining is open.
 
 ![](deposit.gif)
 
 BGSP tokens can be delegated and used to vote through the [governance portal](https://bigswap.app/#/vote).
 
 ![](vote.gif)
-
-Set up an account on [gov.uniswap.org](https://gov.uniswap.org) to start shaping and participating in protocol governance
 
 **Contracts**
 
