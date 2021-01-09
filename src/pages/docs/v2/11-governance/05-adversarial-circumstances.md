@@ -3,7 +3,7 @@ title: Adversarial Circumstances
 tags: goveranance, documentation
 ---
 
-This document explores some adversarial circumstances which BIGswap Governance may encounter in the future. Its goal is to help those interested in Uniswap Governance understand the reasoning behind some of its design, its limitations, and potential avenues for growth.
+This document explores some adversarial circumstances which BIGswap Governance may encounter in the future. Its goal is to help those interested in BIGswap Governance understand the reasoning behind some of its design, its limitations, and potential avenues for growth.
 
 # Scenario 1
 
@@ -33,7 +33,7 @@ A single party uses a flash loan to push through a proposal, potentially creatin
 
 A delegated balance of 10 million BGSP is required to submit a vote, but the balance check is set exactly one block in the past. This prevents any flash loan proposals from being created, as flash loans cannot execute outside of a single block.
 
-The proposer must also maintain a minimum balance of 10 million UNI throughout the voting period, or anyone may cancel the proposal. This balance maintenance check prevents many highly leveraged proposal techniques that may span several blocks.
+The proposer must also maintain a minimum balance of 10 million BGSP throughout the voting period, or anyone may cancel the proposal. This balance maintenance check prevents many highly leveraged proposal techniques that may span several blocks.
 
 # Scenario 4
 
@@ -45,6 +45,6 @@ Exmaple: &quot;The treasury will be drained. Any votes in favor will be sent the
 
 No mechanism explicitly prevents this type of scenario, but market forces disincentivize it. 
 
-Because the treasury is comprised of BGSP tokens exclusively, the market would react appropriately if a vote were to pass that would jeopardize the economic viability of BGSPswap Governance and the BGSP token. By the time the vote would pass, BGSP's price would have fallen so low as to make the attack fruitless. 
+Because the treasury is comprised of BGSP tokens exclusively, the market would react appropriately if a vote were to pass that would jeopardize the economic viability of Bigswap Governance and the BGSP token. By the time the vote would pass, BGSP's price would have fallen so low as to make the attack fruitless. 
 
 BGSP acting as the only asset of the governance treasury disincentivizes this form of bad faith voting. Bigswap Governance may choose in the future to diversify governance assets. While there are many benefits to this path, some fringe possibilities such as incentivized bad faith voting may appear.
